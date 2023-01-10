@@ -1,0 +1,99 @@
+
+body{
+margin: 0;
+padding: 0;
+background-image: url("Assets/bg-wool-dark.png");
+background-size: cover;
+
+}
+/* Header */
+.nav-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    max-height: 36px;
+}
+.nav-container a{
+    margin-right: 20px;
+}
+.global-nav{
+    background-color: #202020;
+    display: flex;
+    height: 83px;
+    padding: 16px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-flex;
+    color: white;
+    padding: 10px;
+}
+img{
+    height: 40px;
+    flex-basis: 233px;
+}
+/* Main */
+main{
+    
+}
+.black-background{
+    
+    background-color: #000;
+
+}
+.get-minecraft{
+    height: 600px;
+    background-image: url("Assets/Welcome.jpeg");
+}
+
+/* Explore */
+.explore-box{
+
+}
+.explore-box h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.explore{
+    margin: 100px;
+    background-color: #eee;
+    height: 600px;
+    padding: 75px 0 100px 0;
+}
+h2{
+    text-align: center;
+}
+.game-selector{
+    display: flex;
+    justify-content: center;
+    padding: 0 125px;
+}
+.game-selector button{
+    background-color: #3b8526;
+    color: #fff;
+    border: none; 
+    text-shadow: 0 1px 0 #2a631c;
+    padding: 16px;
+}
+.games{
+    margin: 0 30px;
+    flex: 4;
+    display: flex;
+}
+.games div{
+    
+    width: 220px;
+    margin-right: 60px;
+    padding-left:5px;
+    height: 200px;
+}
+.Minecraft-game{
+    border: 20px solid black;
+    min-height: 334px;
+}
